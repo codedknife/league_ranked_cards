@@ -2,14 +2,14 @@
     "version": 2,
     "builds": [
         {
-            "src": "./flask.py",
+            "src": "./flaskmain.py",
             "use": "@vercel/python"
         }
     ],
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "/flask.py"
+            "dest": "/flaskmain.py"
         }
     ]
 }
