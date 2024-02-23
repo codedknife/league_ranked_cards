@@ -31,7 +31,7 @@ def check_username():
     server = request.form['server']
     
     #api_keys: create the api_url based on username
-    api_key = "RGAPI-c417f988-6b74-45a5-ad94-06e138271140"
+    api_key = "RGAPI-0c24e15b-0b96-4cd6-9dce-6077cec6d70d"
     api_url = "https://" + server + ".api.riotgames.com/lol/summoner/v4/summoners/by-name/"
     api_url = api_url + shortcode + '?api_key=' + api_key
     
